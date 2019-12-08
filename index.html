@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    </head>
+    <body onload="startTime();">
+        <div>
+        </div>
+        <span id="txt"></span>
+    </body>
+</html>
+
+<script>
+    function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        h = checkTime(h);
+        m = checkTime(m);
+        document.getElementById('txt').innerHTML =
+            h + ":" + m;
+        var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+        if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10 because I'm fancy
+        return i;
+    }
+</script>
