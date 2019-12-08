@@ -33,6 +33,27 @@
         // this line shows some text
         item.textContent = (item.textContent === ""? "Hello World!":"");
     }
+
+    function sortTable(table)
+    {
+        if()
+        {
+           //ducode
+           //ducode
+           //ducode 
+        }
+        for(let i = 0; i < table.childNodes.length;i++)
+        {
+            if(table.childNodes[i].textContent.includes("oui"))
+            {
+                table.childNodes[i].style.display = "";
+            } 
+            else 
+            {
+                table.childNodes[i].style.display = "none";
+            }
+        }
+    }
 </script>
 
 <body onload="startTime();" style="background-color:#ffff">
