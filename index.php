@@ -45,6 +45,5 @@
     <div>
         Salut les IPI. Comment ça va ? On va s'amuser avec le git stash
     </div>
-   
 </body>
 </html>
