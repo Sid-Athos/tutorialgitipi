@@ -36,9 +36,10 @@
 
     function sortTable(table)
     {
-        if()
+        let sid = false;
+        if(sid)
         {
-            ///dsjqdhgqsudigqs u
+            console.log("blablabla");
         }
         for(let i = 0; i < table.childNodes.length;i++)
         {
