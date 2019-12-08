@@ -38,9 +38,7 @@
     {
         if()
         {
-           //ducode
-           //ducode
-           //ducode 
+            ///dsjqdhgqsudigqs u
         }
         for(let i = 0; i < table.childNodes.length;i++)
         {
